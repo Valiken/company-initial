@@ -80,7 +80,7 @@ public class Company {
 	@Override
 	public String toString() {
 		return "Company [id=" + id + ", name=" + name + ", aliases=" + Arrays.toString(aliases) + ", website=" + website
-				+ ", twitter=" + twitter + "]";
+				+ ", twitter=" + twitter + ", test" + "]";
 	}
 	
 	
