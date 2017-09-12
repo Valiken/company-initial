@@ -1,0 +1,16 @@
+---
+# this manifest deploys the company application
+applications:
+  - name: company
+    memory: 1G
+    instances: 1
+    path: ./libs/company.jar
+    services:
+      - companydb
+      - companyLogs
+    random-route: true
+    buildpack: java_buildpack
+    env:
+      APP_VERSION: green
+      SPRING_PROFILES_ACTIVE: dev
+    timeout: 120
