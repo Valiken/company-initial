@@ -9,6 +9,6 @@ applications:
       - companyLogs
       - configserver
     buildpack: java_buildpack
-    #env:
-      #SPRING_PROFILES_ACTIVE: cloud
+    env:
+      SPRING_PROFILES_ACTIVE=cloud
     timeout: 120
