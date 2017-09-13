@@ -14,7 +14,6 @@ public class MessageController {
     private String message;
 
     @RequestMapping("/message")
-    @Profile("cloud")
     String getMessage() {
         return "\n" + this.message + "\n\n";
     }
