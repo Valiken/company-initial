@@ -14,8 +14,3 @@ management:
 security:
   basic:
     enabled: false
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://eureka:password@eureka-bberg.cfapps.io/eureka
