@@ -10,5 +10,5 @@ applications:
       - configserver
     buildpack: java_buildpack
     env:
-      SPRING_PROFILES_ACTIVE=cloud
+      SPRING_PROFILES_ACTIVE: cloud
     timeout: 120
